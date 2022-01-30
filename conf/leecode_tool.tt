@@ -1,0 +1,36 @@
+locate chrome.png
+click
+locate chrome-new.png
+click
+#locate chrome-site.png
+#click
+write leetcode-cn.com
+press enter
+sleep 2
+locate question-repository.png
+click
+sleep 3
+locate leetcode-header.png
+move 0 50
+click
+sleep 2
+locate class.png
+move 130 30
+click
+hotkey command c
+build
+pasteclass
+locate idea.png
+click
+#locate java-folder.png
+#click
+hotkey command n
+press enter
+hotkey command v
+press enter
+press right
+press enter
+pastemethod
+hotkey command v
+locate focus.png
+click
