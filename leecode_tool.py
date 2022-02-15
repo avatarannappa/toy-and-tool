@@ -104,7 +104,7 @@ def debug_pyautogui():
 
 def build_class():
     content = pyclip.paste()
-    pattern = re.compile(r"(public|private|protected)+\s(static)?\s?(\S+)\s(\S+)\((\w+.*\w*)?\)")
+    pattern = re.compile(r"(public|private|protected)+\s(static)?\s?(\S+)\s(\S+)(\s*)\((\w+.*\w*)?\)")
     print(content)
     method_info = pattern.findall(content)
 

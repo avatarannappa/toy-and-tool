@@ -6,14 +6,14 @@ click
 #click
 write leetcode-cn.com
 press enter
-sleep 2
+sleep 5
 locate question-repository.png
 click
-sleep 3
+sleep 5
 locate leetcode-header.png
 move 0 50
 click
-sleep 2
+sleep 3
 locate class.png
 move 130 30
 click
@@ -22,8 +22,7 @@ build
 pasteclass
 locate idea.png
 click
-#locate java-folder.png
-#click
+sleep 1
 hotkey command n
 press enter
 hotkey command v
@@ -33,4 +32,6 @@ press enter
 pastemethod
 hotkey command v
 locate focus.png
+click
+locate iterm.png
 click
